@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Conversion</title>
+</head>
+<body>
+    <section id="home">
+        <h2>All Conversions</h2>
+        <nav id="h">
+            <a href="#temperature"><button>Temperature</button></a>
+            <a href="#weight"><button>Weight</button></a>
+            <a href="#distance"><button>Distance</button></a>
+        </nav>
+    </section>
+
+    <hr><br><br>
+
+    <div id="all-conversions">
+        
+        <section id="temperature">
+            <div id="tmp">
+                <figure>
+                    <img src="https://static.vecteezy.com/system/resources/previews/000/442/672/original/temperature-vector-icon.jpg" height="140">
+                    <figcaption>Celsius to Farenheit Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>
+                            <b>Temperature</b>
+                        </legend>
+                        <label for="Temp">Celsius :</label>
+                        <input type="number" id="c"><br><br>
+                        <button id="temp">Convert</button><br><br>
+
+                        <label for="Temp">Farenheit :</label>
+                        <label id="f"></label><br>
+                    </fieldset>
+                </article>
+            </div>
+        </section>
+
+        <br><br>
+
+        <section id="weight">
+            <div id="wei">
+                <figure>
+                    <img src="https://th.bing.com/th/id/R.9a523139bb5d1cd0bfdce2e2882f8b34?rik=%2bZ0YChU7%2fCYXng&riu=http%3a%2f%2ffreevector.co%2fwp-content%2fuploads%2f2014%2f03%2f9206-kilograms-weight1.png&ehk=CVurQ3FU7QBeKMyebHuTpu8%2bT%2f6llkfZ6RgjaIns9ug%3d&risl=&pid=ImgRaw&r=0" height="130">
+                    <br><br>
+                    <figcaption>Kilograms to Pound Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>
+                            <b>Weight</b>
+                        </legend>
+                        <label for="Kilo">Kilogram :</label>
+                        <input type="number" id="k"><br><br>
+                        <button id="kilo">Convert</button><br><br>
+
+                        <label for="Kilo">Pound :</label>
+                        <label type="number" id="p"></label><br>
+                    </fieldset>
+                </article>
+            </div>
+        </section>
+
+        <br><br>
+
+        <section id="distance">
+            <div id="dis">
+                <figure>
+                    <img src="https://cdn.onlinewebfonts.com/svg/img_466671.png" height="130">
+                    <br><br>
+                    <figcaption>Kilometer to Mile Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>
+                            <b>Distance</b>
+                        </legend>
+                        <label for="Dis">Kilometer :</label>
+                        <input type="number" id="d"><br><br>
+                        <button id="dis">Convert</button><br><br>
+
+                        <label for="Dis">Mile :</label>
+                        <label type="number" id="m"></label><br>
+                    </fieldset>
+                </article>
+            </div>
+        </section>
+
+    </div>
+
+    <br><br>
+
+    <footer>
+        This Unit Conversion page was developed by <i>Mohamed Rafi M</i>
+    </footer>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
