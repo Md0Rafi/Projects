@@ -14,6 +14,6 @@
 
 3. Dice Roll Simulator:
 
-     Code: https://github.com/Md0Rafi/Projects/tree/main/Dice Roll Simulator
+     Code: https://github.com/Md0Rafi/Projects/tree/main/DiceRollSimulator
 
-     Site: https://md0rafi.github.io/Projects/Dice Roll Simulator/Index.html
+     Site: https://md0rafi.github.io/Projects/DiceRollSimulator/Index.html
