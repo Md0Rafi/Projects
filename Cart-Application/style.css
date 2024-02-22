@@ -1,0 +1,100 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+body {
+    background: linear-gradient(to bottom, grey, rgba(245, 222, 179, 0.771));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 10px 20px;
+    margin: 50px auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.311);
+    border-radius: 8px;
+    user-select: none;
+}
+
+.container img {
+    width: 30%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.logo h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#addtocart-input, #addtocart-button {
+    width: 100%;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+#addtocart-button {
+    background: rgb(255, 182, 153);
+    margin-bottom: 25px;
+}
+
+#addtocart-button:hover {
+    background: rgba(255, 182, 153, 0.47);
+    cursor: pointer;
+}
+
+#addtocart-button:active {
+    background: rgb(255, 182, 153);
+}
+
+#addtocart-input {
+    background: rgba(255, 255, 255, 0.423);
+}
+
+.container ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container ul li {
+    background: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container ul li:hover {
+    background: #fffdf83e;
+    cursor: pointer;
+}
+
+.container ul li:active {
+    background: #ffffff;
+}
